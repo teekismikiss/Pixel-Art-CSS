@@ -1,0 +1,37 @@
+/* Pixel Art con CSS: Corazón y Alien con box-shadow */
+/* PROYECTO PERSONAL */
+
+ .canva{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+    font-size: 20px; /* Tamaño de los píxeles */
+}
+
+.corazon {
+  width: 1em;
+  height: 1em;
+  background: transparent;
+  box-shadow:
+    /* Fila 1 */ 5em 1em red, 6em 1em red, 8em 1em red, 9em 1em red,
+    /* Fila 2 */ 5em 2em red, 6em 2em red, 7em 2em red, 8em 2em red, 9em 2em red,
+    /* Fila 3 */ 5em 3em red, 6em 3em red, 7em 3em red, 8em 3em red, 9em 3em red,
+    /* Fila 4 */ 6em 4em red, 7em 4em red, 8em 4em red,
+    /* Fila 5 */ 7em 5em red;
+}
+
+.alien {
+  width: 1em;
+  height: 1em;
+  background: transparent;
+  box-shadow:
+    /* Fila 1 */ 5em 1em pink, 6em 1em pink, 7em 1em pink,
+    /* Fila 2 */ 3em 2em pink, 4em 2em pink, 5em 2em pink, 6em 2em pink, 7em 2em pink, 8em 2em pink, 9em 2em pink,
+    /* Fila 3 */ 2em 3em pink, 3em 3em pink, 4em 3em pink, 6em 3em pink, 8em 3em pink, 9em 3em pink, 10em 3em pink,
+    /* Fila 4 */ 2em 4em pink, 3em 4em pink, 4em 4em pink, 5em 4em pink, 6em 4em pink, 7em 4em pink, 8em 4em pink, 9em 4em pink, 10em 4em pink,
+    /* Fila 5 */ 2em 5em pink, 4em 5em pink, 5em 5em pink, 6em 5em pink, 7em 5em pink, 8em 5em pink, 10em 5em pink,
+    /* Fila 6 */ 2em 6em pink, 5em 6em pink, 7em 6em pink, 10em 6em pink,
+    /* Fila 7 */ 1em 7em pink, 4em 7em pink, 8em 7em pink, 11em 7em pink;
+}
