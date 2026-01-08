@@ -1,0 +1,48 @@
+.canva{
+  height: 200vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:30px; /*tamaño del pixel*/
+  background-color:black;
+}
+
+:root{ 
+  --c1:#8effff; 
+  --c2:#8dfefe;
+  --c3:#5abeff;
+  --c4:#5b9bff;
+  --c5:#f59849;/*gold*/
+  --c6:#fed90f;/*highlight*/
+  --c7:#f2d738;/*gold dark*/
+  --c8:#ea843d;
+  --c9:#ba582b;/* darkest gold*/
+  --c10:#742a2a;/marron}
+
+.espada{width:1em;/* prueba con pixel en vez de em*/
+height:1em;
+background:transparent;
+  box-shadow: 
+    /*1 fila*/ 6em 1em var(--c1),
+    /*2 fila*/ 5em 2em var(--c1),6em 2em var(--c1),7em 2em var(--c1),
+    /*3 fila*/ 4em 3em var(--c1),5em 3em var(--c1),6em 3em white, 7em 3em var(--c3),8em 3em var(--c4),
+    /*4 fila*/ 4em 4em var(--c1),5em 4em var(--c1),6em 4em white, 7em 4em var(--c3),8em 4em var(--c4),
+    /*5 fila*/ 4em 5em var(--c1),5em 5em var(--c1),6em 5em white, 7em 5em var(--c3),8em 5em var(--c4),
+    /*6 fila*/ 4em 6em var(--c1),5em 6em var(--c1),6em 6em white, 7em 6em var(--c3),8em 6em var(--c4),
+    /*7 fila*/ 4em 7em var(--c1),5em 7em var(--c1),6em 7em white, 7em 7em var(--c3),8em 7em var(--c4),
+    /*8 fila*/ 4em 8em var(--c1),5em 8em var(--c1),6em 8em white, 7em 8em var(--c3),8em 8em var(--c4),
+    /*9 fila*/ 4em 9em var(--c1),5em 9em var(--c1),6em 9em white, 7em 9em var(--c3),8em 9em var(--c4),
+    /*10 fila*/ 4em 10em var(--c1),5em 10em var(--c1),6em 10em white, 7em 10em var(--c3),8em 10em var(--c4),
+    /*11 fila*/ 4em 11em var(--c1),5em 11em var(--c1),6em 11em white, 7em 11em var(--c3),8em 11em var(--c4),
+    /*12 fila*/ 4em 12em var(--c1),5em 12em var(--c1),6em 12em white, 7em 12em var(--c3),8em 12em var(--c4),
+    /*13 fila*/ 1em 13em var(--c5),2em 13em var(--c5),3em 13em var(--c5),4em 13em var(--c5),5em 13em var(--c5),6em 13em #f8a70c, 7em 13em var(--c8),8em 13em var(--c8),9em 13em var(--c8),10em 13em var(--c9),11em 13em var(--c9),
+   /*14 fila*/4em 14em var(--c5),5em 14em var(--c5),6em 14em red,7em 14em var(--c8),8em 14em var(--c8),
+     /*15 fila*/5em 15em var(--c5),6em 15em red,7em 15em var(--c8),
+    /*16 fila*/5em 16em var(--c5),6em 16em var(--c5),7em 16em var(--c8),
+    /*17 fila*/5em 17em var(--c5),6em 17em var(--c5),7em 17em var(--c8),
+    /*18 fila*/5em 18em var(--c10),6em 18em var(--c10),7em 18em #480e22,
+    /*19 fila*/5em 19em var(--c10),6em 19em var(--c10),7em 19em #480e22,
+    /*20 fila*/5em 20em var(--c5),6em 20em var(--c5),7em 20em var(--c8),
+    /*21 fila*/5em 21em var(--c5),6em 21em var(--c5),7em 21em var(--c8)
+    
+}
